@@ -1,22 +1,3 @@
-// const { defineConfig } = require('cypress');
-//
-// module.exports = defineConfig({
-//     e2e: {
-//         supportFile: false,
-//         setupNodeEvents(/* on, config */) {
-//             // implement node event listeners here
-//         },
-//         baseUrl: 'http://localhost:3001',
-//         specPattern: 'test/cypress/e2e/**/*.cy.{js,jsx,ts,tsx,feature}',
-// },
-// })
-//
-//
-//
-//
-//
-
-
 const { defineConfig } = require('cypress');
 const webpackPreprocessor = require('@cypress/webpack-preprocessor');
 const { addCucumberPreprocessorPlugin } = require('@badeball/cypress-cucumber-preprocessor');
