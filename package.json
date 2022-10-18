@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "cy": "./node_modules/.bin/cypress run --headless",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^13.0.2",
+    "@cypress/webpack-preprocessor": "^5.14.0",
+    "@nuxtjs/tailwindcss": "^5.3.5",
+    "cypress": "^10.9.0",
+    "nuxt": "3.0.0-rc.11",
+    "unplugin-auto-import": "^0.11.2",
+    "vitest": "^0.24.3",
+    "webpack": "^5.74.0"
+  },
+  "dependencies": {}
+}
